@@ -1,0 +1,288 @@
+@import url("/css/home.css");
+/* @import url("/css/contact.css"); */
+
+.section-10{
+    background-image: url("/img/rates/rates-1.jpg");
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-10 h1{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 50px;
+    color: orangered;
+}
+
+.section-11{
+    padding-top: 5px;
+    width: 100%;
+    background-color: rgb(251, 251, 250);
+}
+
+.section-11 h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    background-color:rgb(226, 237, 243);
+}
+#rates{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* padding: 20px; */
+    padding-bottom: 70px;
+    background-color:rgb(226, 237, 243);   
+}
+#rates div{
+    
+    box-shadow: 0px 0px 5px rgba(57, 55, 55, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    transition:transform ;
+}
+
+#rates div:hover{
+    transform: scale(1.1,1.1);
+}
+#rates h3{
+        padding: 5px;
+        font-size: 25px;
+        font-weight: 400;
+}
+#rates h4{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+#rates button{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+#rates button:hover{
+    background-color: orangered;
+    color: white;
+    transform: scale(1.2);
+}
+/* ------------------------ */
+.section-12{
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: rgb(251, 251, 250);
+}
+
+.section-12 h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    background-color:rgb(226, 237, 243);
+}
+
+#full-rates{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    
+    padding-bottom: 70px;
+    background-color:rgb(226, 237, 243);
+    
+}
+#trail {
+    box-shadow: 0px 0px 5px rgba(184, 176, 176, 0.4);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+#trail:hover{
+    transform: scale(1.1,1.1);
+}
+#trail h1{
+    background: none;
+    color: orangered;
+}
+#trail h3{
+        padding: 5px;
+        font-size: 25px;
+        font-weight: 400;
+}
+#trail h4{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+#yearly-package{
+    box-shadow: 0px 0px 5px rgba(184, 176, 176, 0.4);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    text-align: center;
+}
+#yearly-package:hover{
+    transform: scale(1.1,1.1);
+}
+#yearly-package h1{
+    background: none;
+    color: orangered;
+}
+
+#yearly-package h3{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+#yearly-package h4{
+padding: 5px;
+font-size: 20px;
+font-weight: 300;
+text-align: center;
+}
+#full-rates button{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+   
+    
+}
+#full-rates button:hover{
+    background-color: orangered;
+    color: white;
+    transform: scale(1.2);
+}
+
+.section-13{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(236, 232, 227);
+}
+.section-13 h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    color:orangered;
+    padding-left: 30px;
+}
+.section-13 h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(65, 67, 67);
+    padding-left: 30px;
+}
+
+.section-14 {
+    display: flex;
+    margin: 20px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 0;
+    background-color: orangered;
+}
+.section-14 h1{
+    font-size: 35px;
+    
+    color: white;
+    padding-bottom: 15px;
+}
+.section-14 h4{
+
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+#join{
+   
+    margin-top: 60%;
+   padding-left: 15px;
+   padding-right: 15px;
+   cursor: pointer;
+   border: 0px solid white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+#join:hover{
+    color: orangered;
+    transform: scale(1.2,1.2);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-15{
+    margin: 50px;
+    background-color: white;
+}
+.section-15 h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+}
+.section-15 h2{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(95, 90, 90);
+}
+
+#daily_pass{
+    margin-left: 30px;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: 550;
+    border: 2px solid orangered;
+    background-color: whitesmoke;
+    text-align: center;
+    cursor: pointer;
+}
+
+#daily_pass:hover{
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    transform: scale(1.2,1.2);
+}

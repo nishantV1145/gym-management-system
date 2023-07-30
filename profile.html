@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="shortcut icon" type="image/ico" href="/img/icon.ico">
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+
+    <header class="header">
+        <img id="logo" src="/img/logo.jpg" alt="logo">
+        <h1>FITNESS FIRST</h1>
+
+        <div>
+            <ul id="navbar">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Rates.html">Rates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                <li><a href="login.html">Login</a></li>
+                <li><a href="profile.html" class="active">Sign up</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+
+     <section class="section-17">
+        <h1>CREATA ACCOUNT</h1>
+        <form  id="contactFrom">
+            <div class="txt_field">
+                 
+                <i class="fa-solid fa-user-plus"></i>
+                  <div>
+                    <input type="text" name="first-name" id="first-name" required >
+                    <label>FIRST NAME</label>
+                  </div> 
+            </div>
+             
+            <div class="txt_field">
+                <input type="text" name="last-name" id="last-name" required>
+                <label>LAST NAME</label>
+              </div>
+            </div>
+     
+            <div class="txt_field">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <input type="email" name="email" id="email"required>
+                    <label>EMAIL</label>
+                </div>
+                
+            </div>
+        <div class="txt_field">
+            <i class="fa-solid fa-user"></i>
+            <div>
+                <input type="text"name="username" id="username" required>
+                <label >USERNAME</label>
+            </div>
+        </div>
+        <div class="txt_field">
+            <i class="fa-solid fa-lock"></i>
+            <div>
+                <input id="pass" type="password" name="password" id="password" required>
+                <label > PASSWORD</label>
+            </div>
+        </div>
+        <div class="txt_field">
+            <i class="fa-solid fa-lock"></i>
+            <div>
+                <input  id="confirmPass" type="password" name="confirm-password" id="confir-password"required>
+                <label > CONFIRM PASSWORD</label>
+            </div>
+            
+        </div>
+        <input id="sign_up" type="submit" value="Sign up">
+    </form>
+            
+        
+     </section>
+
+
+
+     <script src="https://kit.fontawesome.com/0ab77f2bb9.js" crossorigin="anonymous"></script>
+     <script src="/script/app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js"></script>
+</body>
+</html>
